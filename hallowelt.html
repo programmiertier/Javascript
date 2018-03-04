@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript: Hallo Welt</title>
+  <script>
+    window.confirm("Hallo Welt!");
+    // erscheint ganz oben auf der Seite, da es im head erstellt wurde
+    // würde weiter unten im Body erscheinen, je nach angedachter Position
+    document.writeln("document.writeln, das WriteLine, System.Out von JavaScript");
+
+  </script>
+  <noscript>
+    Hier könnte etwas stehen, falls JavaScript deaktiviert wurde
+  </noscript>
+</head>
+
+<body>
+  <p>Quadrat und Viereck ausgeben</p>
+  <p>
+    <main>
+      <input type="number" id="eingabe" value="0" size="3">
+      <button type="button" id="los">Quadrat errechnen</button><br/>
+      <input type="number" id="eingabe1" value="0" size="3">
+      <input type="number" id="eingabe2" value="0" size="3">
+      <button type="button" id="losvier">Viereck errechnen</button>
+    </main>
+    <script src="quadrat.js"></script>
+  </p>
+</body>
+
+</html>
